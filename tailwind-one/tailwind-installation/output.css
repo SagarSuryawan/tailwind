@@ -10,8 +10,6 @@
     --color-red-700: oklch(0.505 0.213 27.518);
     --color-amber-50: oklch(0.987 0.022 95.277);
     --color-yellow-400: oklch(0.852 0.199 91.936);
-    --color-green-200: oklch(0.925 0.084 155.995);
-    --color-green-400: oklch(0.792 0.209 151.711);
     --color-green-500: oklch(0.723 0.219 149.579);
     --color-green-600: oklch(0.627 0.194 149.214);
     --color-blue-200: oklch(0.882 0.059 254.128);
@@ -505,38 +503,20 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
-  }
-  .w-2 {
-    width: calc(var(--spacing) * 2);
   }
   .w-2\/12 {
     width: calc(2/12 * 100%);
   }
-  .w-3 {
-    width: calc(var(--spacing) * 3);
-  }
   .w-3\/12 {
     width: calc(3/12 * 100%);
-  }
-  .w-6 {
-    width: calc(var(--spacing) * 6);
   }
   .w-6\/12 {
     width: calc(6/12 * 100%);
   }
-  .w-9 {
-    width: calc(var(--spacing) * 9);
-  }
   .w-9\/12 {
     width: calc(9/12 * 100%);
-  }
-  .w-12 {
-    width: calc(var(--spacing) * 12);
   }
   .w-12\/12 {
     width: calc(12/12 * 100%);
@@ -2118,20 +2098,6 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-blue-800);
-      }
-    }
-  }
-  .hover\:bg-green-200 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-green-200);
-      }
-    }
-  }
-  .hover\:bg-green-400 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-green-400);
       }
     }
   }
